@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 300px;
+    height:200px;
+    margin: 40px auto;
+    padding: 10px;
+    border:3px solid #5F9EA0;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #333;
+}
+
+a {
+    display: block;
+    padding: 10px 20px;
+    margin:10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #0056b3;
+}

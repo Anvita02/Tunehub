@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1"> 
+<title>Insert title here</title>
+<link th:href="@{/register.css}" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- Instance variables should be same as attribute name -->
+<h1>USER REGISTRATION</h1>
+<form action="register" method="post">
+<label>Username : </label>
+<input type="text" name="username" placeholder="Enter Your Username" required/>
+
+</br>
+<label>Email : </label>
+<input type="text" name="email" placeholder="Enter Your Email" required/>
+</br>
+
+<label>Password : </label>
+<input type="password" name="password" placeholder="Enter Your Password" required/>
+</br>
+
+<label>Gender : </label>
+Male<input type="radio" name="gender"  value="male"/>
+Female<input type="radio" name="gender"  value="female"/>
+Others<input type="radio" name="gender"  value="others"/>
+</br>
+</br>
+<label>Role:</label>
+Admin<input type="radio" name="role" value="admin"/>
+Customer<input type="radio" name="role" value="customer"/>
+</br>
+</br>
+<label>Address : </label>
+<textarea name="address" placeholder="Enter Your Address" required></textarea>
+</br>
+<input type="submit" value="Register"/>
+</form>
+</body>
+</html>

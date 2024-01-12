@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+h1{
+	text-align: center;
+	color: 	  #ff9933;
+}
+iframe {
+    height:200px;
+    width: 500px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px; /* Adjust the margin as needed */
+    
+}
+
+th, td {
+    border:2px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px; /* Adjust the margin as needed */
+}

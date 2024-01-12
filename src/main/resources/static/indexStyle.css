@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+/* Style the container */
+body{
+	 background-image: url("wood2.jpg");
+}
+.container {
+  width: 200px;
+  height:180px;
+  margin: 20px auto;
+  padding: 50px;
+  margin-top:120px;
+  background-color:rgb(230, 255, 250);
+  border: 2px solid;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the content inside the container */
+ .a1 {
+  color: blue;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 20px;
+  
+ 
+}
+ .a2 {
+  color:blue;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 20px;
+  
+}
+
+ h1 {
+  color: #545;
+  font-size: 28px;
+  margin-bottom: 10px;
+  text-align:center;
+}
+
+

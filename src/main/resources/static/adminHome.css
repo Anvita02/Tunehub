@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#header {
+    text-align: center;
+    padding: 20px;
+    background-color:#d27979;
+    color:black;
+}
+
+
+#menu {
+    padding: 10px;
+}
+#container {
+	
+   
+    margin-top:60px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 40px;
+    
+    
+  
+    
+}
+
+a {
+    text-decoration:none;
+    color:black;
+    display:block;
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #a3002e;
+    color: black;
+}
+
+/* Optional: Add some spacing between the links */
+a + a {
+    margin-top: 3px;
+}
